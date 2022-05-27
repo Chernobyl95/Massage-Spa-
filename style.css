@@ -1,0 +1,43 @@
+:root {
+  --bs-orange: #fd7e14;
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  #home {
+    width: 100%;
+  }
+}
+.btn:hover {
+  background-color: var(--bs-orange);
+  color: white;
+  border: solid 1px rgb(145, 98, 11);
+}
+.btn {
+  background-color: rgba(255, 255, 255, 0.185);
+  color: white;
+  border: solid 1px white;
+}
+#home {
+  background-image: url(./spa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+}
